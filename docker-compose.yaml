@@ -12,3 +12,4 @@ services:
         "/data/accounts/postgres:/var/lib/postgres/data"
       ports:
         - 5433:5432
+        -
