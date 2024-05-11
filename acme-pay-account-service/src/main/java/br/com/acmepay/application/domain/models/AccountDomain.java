@@ -19,7 +19,7 @@ public class AccountDomain {
     private Integer agency;
     private BigDecimal balance;
     private Boolean closed;
-    private List<CardDomain> cards;
+    //private List<CardDomain> cards;
     private String customer;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
@@ -30,8 +30,8 @@ public class AccountDomain {
         this.setId(account.id);
         this.setCreatedAt(LocalDateTime.now());
         this.setUpdatedAt(null);
-        this.setCustomer(createCustomer());
-        this.setCards(new ArrayList<>());
+        //this.setCustomer(createCustomer());
+        //this.setCards(new ArrayList<>());
         this.setBalance(BigDecimal.ZERO);
         this.setNumber(account.number);
         this.setAgency(account.agency);
