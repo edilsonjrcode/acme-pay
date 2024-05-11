@@ -1,1 +1,2 @@
-/src/main/java/br/com/acmepay/application/domain/exceptions
+/acme-pay-transaction-service/src/main/java/br/com/acmepay/exceptions/*
+
